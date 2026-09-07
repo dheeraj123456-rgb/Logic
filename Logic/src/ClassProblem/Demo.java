@@ -48,8 +48,7 @@ class paymentDetails{
 public class Demo {
 	
 	public static void main(String[] args) {
-		paymentDetails payments;
-		payments = new UPIPayment(101,"Dheeraj sharma",15260.00);
+		paymentDetails payments = new UPIPayment(101,"Dheeraj sharma",15260.00);
 		payments.PaymentDisplaydetails();
 		payment pay = (payment ) payments;
 		pay.makePayment();
