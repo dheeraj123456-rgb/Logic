@@ -1,0 +1,2 @@
+Hello,this is File B.
+Java file Handling
